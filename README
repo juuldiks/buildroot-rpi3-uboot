@@ -1,5 +1,6 @@
 buildroot-rpi3-uboot is a simple, efficient and easy-to-use tool to generate an embedded
 Linux system, including U-Boot, through cross-compilation for the Raspberry Pi 3.
+
 Note that only the 64bit versions of the raspberry pi 3 are supported at the moment.
 
 To build the 64bit Linux system for the raspberry pi 3, do the following:
