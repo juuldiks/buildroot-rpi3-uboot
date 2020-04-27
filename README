@@ -3,6 +3,10 @@ Linux system, including U-Boot, through cross-compilation for the Raspberry Pi 3
 
 To build the Linux system for the raspberry pi 3 B+, do the following:
 
-1) run 'make raspberrypi3
+1) run 'make raspberrypi3_64_uboot_defconfig'
+2) optionally, change the buildroot configuration using 'make menuconfig'
+3) run 'make'
+4) wait while it compiles
+5) find the sd card image in output/images, called 'sdcard.img'
 
 For more information about buildroot, please visit https://buildroot.org/
